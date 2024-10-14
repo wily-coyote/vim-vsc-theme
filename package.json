@@ -1,0 +1,22 @@
+{
+	"name": "vim-color-theme",
+	"displayName": "Vim-like",
+	"description": "Vim-like color theme",
+	"version": "0.0.1",
+	"license": "GPL-3.0-or-later",
+	"engines": {
+		"vscode": "^1.54.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Vim-like",
+				"uiTheme": "vs-dark",
+				"path": "./themes/vim-color-theme.json"
+			}
+		]
+	}
+}
